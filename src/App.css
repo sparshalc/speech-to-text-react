@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    background-color: #cecece72;
+}
+.mainComp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin-top: 10px;
+}
+button{
+    outline: 0;
+    border: 0;
+    background-color: #2382f6;
+    color: white;
+    padding: 12px 12px;
+    border-radius: 5px;
+    margin: auto 3px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+button.clear{
+    background-color: rgb(212, 1, 1);
+}
+button.clear:hover{
+    background-color: rgb(224, 8, 8);
+}
+.btns{
+    margin-top: 25px;
+}
+button:hover{
+    background-color: #1c7aeb;
+    transform: scale(1.01);
+}
+h2{
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    color: white;
+    background-color: #2382f6;
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.197);
+    padding: 9px;
+    text-align: center;
+}
+.link{
+    text-decoration: none;
+    color: white;
+}
+.cc{
+    font-size: 14px;
+}
+
+span{
+    font-weight: 800;
+}
+
+#text {
+    background-color:#FFF;
+    color:#222;
+    font-family:Courier, monospace;
+    font-weight:normal;
+    font-size:24px;
+    resize:none;
+    line-height:40px;
+    padding-left:100px;
+    padding-right:100px;
+    padding-top:45px;
+    outline: none;
+    border: 0;
+    padding-bottom:34px;
+    background-image:url(https://static.tumblr.com/maopbtg/E9Bmgtoht/lines.png), url(https://static.tumblr.com/maopbtg/nBUmgtogx/paper.png);
+    background-repeat:repeat-y, repeat;
+    -webkit-border-radius:12px;
+    border-radius:12px;
+    -webkit-box-shadow: 0px 2px 14px #0000004e;
+    box-shadow: 0px 2px 14px #00000048;
+    border-top:1px solid #FFF;
+    border-bottom:1px solid #FFF;
+    word-wrap: break-word;
+    height: 560px;
+    width: 750px;
+  }
